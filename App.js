@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import { View , StyleSheet, Text} from 'react-native';
 import Video from 'react-native-video';
 
@@ -40,7 +40,7 @@ const App: () => MYVideoApp = () => {
     <>
      <View style={styles.Container}>
 
-        <Text style={{ fontSize: 20, textAlign: 'center', padding: 20, color: 'blue' }}>Video Straming</Text>
+        <Text style={{ fontSize: 20, textAlign: 'center', padding: 20, color: 'blue' }}>Video Streaming</Text>
         <Video source={{ uri: DATA[indexVideo].uri }}
           style={styles.backgroundVideo}
           repeat={false}
